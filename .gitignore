@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+*.sh
+PROJECT_*.txt
+extract_*.txt

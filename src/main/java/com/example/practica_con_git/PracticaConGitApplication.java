@@ -14,9 +14,13 @@ public class PracticaConGitApplication {
 		StringBuilder sb = new StringBuilder();
 		return sb.append("Hola con builder").toString();
 	}
-	
+
 	public Integer suma(){
 		return 5+5;
+	}
+
+	public Integer multiplicar(int a, int b){
+		return a * b;
 	}
 
 	public static void main(String[] args) {
@@ -24,8 +28,7 @@ public class PracticaConGitApplication {
 
 		PracticaConGitApplication objeto1= new PracticaConGitApplication();
 		System.out.println(objeto1.saludar());
-
 		System.out.println("Suma: "+objeto1.suma());
+		System.out.println("Multiplicacion: "+objeto1.multiplicar(4, 3));
 	}
-
 }
