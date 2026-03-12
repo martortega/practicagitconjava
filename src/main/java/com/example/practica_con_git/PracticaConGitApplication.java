@@ -10,8 +10,15 @@ public class PracticaConGitApplication {
 		return "Hola mundo!";
 	}
 	
+	public Integer suma(){
+		return 5+5;
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(PracticaConGitApplication.class, args);
+
+		PracticaConGitApplication objeto1= new PracticaConGitApplication();
+		System.out.println(objeto1.saludar());
 	}
 
 }
