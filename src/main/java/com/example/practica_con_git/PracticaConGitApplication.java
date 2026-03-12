@@ -9,6 +9,11 @@ public class PracticaConGitApplication {
 	public String saludar(){
 		return "Hola mundo!";
 	}
+
+	public String saludarConBuilder(){
+		StringBuilder sb = new StringBuilder();
+		return sb.append("Hola con builder").toString();
+	}
 	
 	public Integer suma(){
 		return 5+5;
