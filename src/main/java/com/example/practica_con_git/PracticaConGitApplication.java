@@ -24,6 +24,8 @@ public class PracticaConGitApplication {
 
 		PracticaConGitApplication objeto1= new PracticaConGitApplication();
 		System.out.println(objeto1.saludar());
+
+		System.out.println("Suma: "+objeto1.suma());
 	}
 
 }
